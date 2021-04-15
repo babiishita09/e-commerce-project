@@ -41,4 +41,4 @@ def upload():
       return render_template(template, object_list=object_list)
 
 if __name__ == '__main__':
-    app.run(port=5050, debug=True, use_reloader = True)
+    app.run(debug=True, use_reloader = True)
